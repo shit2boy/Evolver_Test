@@ -63,7 +63,7 @@ export default class CategorySections extends Component {
               <div className="card">
                 {" "}
                 <img
-                  className="img-fluid"
+                  className="img-fluid grow"
                   src={item.img}
                   alt="icon"
                   width="100%"
