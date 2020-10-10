@@ -41,19 +41,18 @@ export class Navigation extends Component {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="container">
-            <a class="navbar-brand" href="/">
+            <a class="navbar-brand mr-5" href="/">
               <img src={Logo} alt="Logo" width="75px" />
             </a>
-
+            <div className="mx-auto w-50">
+              <Form.Group>
+                <Form.Control
+                  type="text"
+                  placeholder="Search for a roduct,category or space"
+                />
+              </Form.Group>
+            </div>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-              <div className="mx-auto w-50">
-                <Form.Group>
-                  <Form.Control
-                    type="text"
-                    placeholder="Search for a roduct,category or space"
-                  />
-                </Form.Group>
-              </div>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                   <a class="nav-link" id="account" href="/">
